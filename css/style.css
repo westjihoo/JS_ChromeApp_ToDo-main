@@ -1,0 +1,56 @@
+.hidden {
+    display: none;
+}
+
+.background {
+    position: fixed;
+}
+
+.img {
+    max-width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+}
+
+.clock{
+    position: relative;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    text-shadow: 6px 2px 2px gray;
+    top: 50%;
+    z-index: 9;
+}
+
+.quites{
+    position: relative;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    text-shadow: 6px 2px 2px gray;
+    z-index: 8;
+}
+
+.weather{
+    position: relative;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    text-shadow: 6px 2px 2px gray;
+    z-index: 7;
+}
+
+.login{
+    position: relative;
+    z-index: 6;
+}
+
+.input_todo{
+    position: relative;
+    z-index: 6;
+}
